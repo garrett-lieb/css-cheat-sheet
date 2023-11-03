@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+body {
+    background-color: rgb(212, 212, 212);
+    color: #ff02e1;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    border: solid white;
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2rem;
+    }
+
+.grid-item {
+    margin: -20px;
+    padding: 20px;
+}
+
+aside {
+    background: #ff02e1;
+    color: white;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    padding: 100px;
+    border: dashed white;
+}
