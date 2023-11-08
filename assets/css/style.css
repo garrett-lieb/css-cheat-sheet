@@ -3,7 +3,7 @@
     --outer-space: #33393f;
     --bright-turquoise: #2aefcb;
     --gin: #e0eae4;
-    --heliotrope: #e866ec;
+    --lilac: #6681ec;
   }
   
   /* set content highlight color and background */
@@ -36,7 +36,7 @@
   h5,
   h6 {
     margin-bottom: 0.625rem;
-    color: var(--heliotrope);
+    color: var(--lilac);
     font-weight: 700;
     line-height: 1.1;
   }
@@ -129,7 +129,7 @@
     justify-content: flex-start;
     min-height: 100%;
     padding: 2rem;
-    color: var(--heliotrope);
+    color: var(--lilac);
   
     /* outline is like border, but on the outside of the box instead of inside */
     outline: 2px dashed var(--gin);
@@ -143,7 +143,7 @@
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: var(--outer-space);
-    color: var(--heliotrope);
+    color: var(--lilac);
     border: 2px solid var(--gin);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
@@ -152,7 +152,7 @@
   /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
   .code-card:hover,
   .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+    box-shadow: inset 0px 0px 8px var(--lilac), 0 0 15px var(--lilac);
   }
   
   /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
